@@ -1,0 +1,1612 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='tweet_activity_metrics_bakery_ (Tweet Activity Metrics - Bakery Brand)' inline='true' name='federated.0jmwog417ln8141b11fx61cya4h3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Tweet Activity Metrics - Bakery Brand' name='excel-direct.1vjnad102m072d1bb66o403v1vng'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Prate/OneDrive/Downloads/Tweet Activity Metrics - Bakery Brand.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1vjnad102m072d1bb66o403v1vng' name='tweet_activity_metrics_bakery_' table='[tweet_activity_metrics_bakery_$]' type='table'>
+          <columns gridOrigin='A1:AN33:no:A1:AN33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Tweet id' ordinal='0' />
+            <column datatype='string' name='Tweet permalink' ordinal='1' />
+            <column datatype='string' name='Tweet text' ordinal='2' />
+            <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm Z' name='time' ordinal='3' />
+            <column datatype='integer' name='impressions' ordinal='4' />
+            <column datatype='integer' name='engagements' ordinal='5' />
+            <column datatype='real' name='engagement rate' ordinal='6' />
+            <column datatype='integer' name='retweets' ordinal='7' />
+            <column datatype='integer' name='replies' ordinal='8' />
+            <column datatype='integer' name='likes' ordinal='9' />
+            <column datatype='integer' name='user profile clicks' ordinal='10' />
+            <column datatype='integer' name='url clicks' ordinal='11' />
+            <column datatype='integer' name='hashtag clicks' ordinal='12' />
+            <column datatype='integer' name='detail expands' ordinal='13' />
+            <column datatype='integer' name='permalink clicks' ordinal='14' />
+            <column datatype='integer' name='app opens' ordinal='15' />
+            <column datatype='integer' name='app installs' ordinal='16' />
+            <column datatype='integer' name='follows' ordinal='17' />
+            <column datatype='integer' name='email tweet' ordinal='18' />
+            <column datatype='integer' name='dial phone' ordinal='19' />
+            <column datatype='integer' name='media views' ordinal='20' />
+            <column datatype='integer' name='media engagements' ordinal='21' />
+            <column datatype='string' name='promoted impressions' ordinal='22' />
+            <column datatype='string' name='promoted engagements' ordinal='23' />
+            <column datatype='string' name='promoted engagement rate' ordinal='24' />
+            <column datatype='string' name='promoted retweets' ordinal='25' />
+            <column datatype='string' name='promoted replies' ordinal='26' />
+            <column datatype='string' name='promoted likes' ordinal='27' />
+            <column datatype='string' name='promoted user profile clicks' ordinal='28' />
+            <column datatype='string' name='promoted url clicks' ordinal='29' />
+            <column datatype='string' name='promoted hashtag clicks' ordinal='30' />
+            <column datatype='string' name='promoted detail expands' ordinal='31' />
+            <column datatype='string' name='promoted permalink clicks' ordinal='32' />
+            <column datatype='string' name='promoted app opens' ordinal='33' />
+            <column datatype='string' name='promoted app installs' ordinal='34' />
+            <column datatype='string' name='promoted follows' ordinal='35' />
+            <column datatype='string' name='promoted email tweet' ordinal='36' />
+            <column datatype='string' name='promoted dial phone' ordinal='37' />
+            <column datatype='string' name='promoted media views' ordinal='38' />
+            <column datatype='string' name='promoted media engagements' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1vjnad102m072d1bb66o403v1vng' name='tweet_activity_metrics_bakery_' table='[tweet_activity_metrics_bakery_$]' type='table'>
+          <columns gridOrigin='A1:AN33:no:A1:AN33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Tweet id' ordinal='0' />
+            <column datatype='string' name='Tweet permalink' ordinal='1' />
+            <column datatype='string' name='Tweet text' ordinal='2' />
+            <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm Z' name='time' ordinal='3' />
+            <column datatype='integer' name='impressions' ordinal='4' />
+            <column datatype='integer' name='engagements' ordinal='5' />
+            <column datatype='real' name='engagement rate' ordinal='6' />
+            <column datatype='integer' name='retweets' ordinal='7' />
+            <column datatype='integer' name='replies' ordinal='8' />
+            <column datatype='integer' name='likes' ordinal='9' />
+            <column datatype='integer' name='user profile clicks' ordinal='10' />
+            <column datatype='integer' name='url clicks' ordinal='11' />
+            <column datatype='integer' name='hashtag clicks' ordinal='12' />
+            <column datatype='integer' name='detail expands' ordinal='13' />
+            <column datatype='integer' name='permalink clicks' ordinal='14' />
+            <column datatype='integer' name='app opens' ordinal='15' />
+            <column datatype='integer' name='app installs' ordinal='16' />
+            <column datatype='integer' name='follows' ordinal='17' />
+            <column datatype='integer' name='email tweet' ordinal='18' />
+            <column datatype='integer' name='dial phone' ordinal='19' />
+            <column datatype='integer' name='media views' ordinal='20' />
+            <column datatype='integer' name='media engagements' ordinal='21' />
+            <column datatype='string' name='promoted impressions' ordinal='22' />
+            <column datatype='string' name='promoted engagements' ordinal='23' />
+            <column datatype='string' name='promoted engagement rate' ordinal='24' />
+            <column datatype='string' name='promoted retweets' ordinal='25' />
+            <column datatype='string' name='promoted replies' ordinal='26' />
+            <column datatype='string' name='promoted likes' ordinal='27' />
+            <column datatype='string' name='promoted user profile clicks' ordinal='28' />
+            <column datatype='string' name='promoted url clicks' ordinal='29' />
+            <column datatype='string' name='promoted hashtag clicks' ordinal='30' />
+            <column datatype='string' name='promoted detail expands' ordinal='31' />
+            <column datatype='string' name='promoted permalink clicks' ordinal='32' />
+            <column datatype='string' name='promoted app opens' ordinal='33' />
+            <column datatype='string' name='promoted app installs' ordinal='34' />
+            <column datatype='string' name='promoted follows' ordinal='35' />
+            <column datatype='string' name='promoted email tweet' ordinal='36' />
+            <column datatype='string' name='promoted dial phone' ordinal='37' />
+            <column datatype='string' name='promoted media views' ordinal='38' />
+            <column datatype='string' name='promoted media engagements' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AN33:no:A1:AN33:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tweet id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tweet id]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>Tweet id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tweet permalink</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tweet permalink]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>Tweet permalink</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tweet text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tweet text]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>Tweet text</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[impressions]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>impressions</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>engagements</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[engagements]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>engagements</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>engagement rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[engagement rate]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>engagement rate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retweets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[retweets]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>retweets</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>replies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[replies]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>replies</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>likes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[likes]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>likes</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user profile clicks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[user profile clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>user profile clicks</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url clicks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[url clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>url clicks</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hashtag clicks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hashtag clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>hashtag clicks</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>detail expands</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[detail expands]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>detail expands</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>permalink clicks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[permalink clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>permalink clicks</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>app opens</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[app opens]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>app opens</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>app installs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[app installs]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>app installs</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>follows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[follows]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>follows</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>email tweet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[email tweet]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>email tweet</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dial phone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dial phone]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>dial phone</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>media views</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[media views]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>media views</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>media engagements</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[media engagements]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>media engagements</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted impressions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted impressions]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted impressions</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted engagements</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted engagements]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted engagements</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted engagement rate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted engagement rate]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted engagement rate</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted retweets</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted retweets]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted retweets</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted replies</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted replies]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted replies</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted likes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted likes]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted likes</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted user profile clicks</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted user profile clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted user profile clicks</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted url clicks</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted url clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted url clicks</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted hashtag clicks</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted hashtag clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted hashtag clicks</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted detail expands</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted detail expands]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted detail expands</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted permalink clicks</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted permalink clicks]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted permalink clicks</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted app opens</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted app opens]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted app opens</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted app installs</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted app installs]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted app installs</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted follows</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted follows]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted follows</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted email tweet</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted email tweet]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted email tweet</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted dial phone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted dial phone]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted dial phone</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted media views</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted media views]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted media views</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>promoted media engagements</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[promoted media engagements]</local-name>
+            <parent-name>[tweet_activity_metrics_bakery_]</parent-name>
+            <remote-alias>promoted media engagements</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Organic Tweet?' datatype='boolean' name='[Calculation_422493955518214144]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CONTAINS([promoted impressions],&quot;-&quot;)' />
+      </column>
+      <column caption='@Reply?' datatype='boolean' name='[Calculation_422493955518652417]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STARTSWITH([Tweet text],&quot;@&quot;)' />
+      </column>
+      <column caption='Type of Tweet' datatype='string' name='[Calculation_422493955518947330]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_422493955518214144] = false THEN &quot;Promoted Tweet&quot;&#13;&#10;ELSEIF [Calculation_422493955518652417] = true THEN &quot;@Reply&quot;&#13;&#10;ELSE &quot;Organic Tweet&quot;&#13;&#10;END' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Day of Week]' role='dimension' type='ordinal' user:agg-type='Weekday' user:base-field='time' user:ui-builder='date-bin-builder'>
+        <calculation class='tableau' formula='DATEPART(&apos;weekday&apos;, [time])' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Hour]' role='dimension' type='ordinal' user:agg-type='Hour' user:base-field='time' user:ui-builder='date-bin-builder'>
+        <calculation class='tableau' formula='DATEPART(&apos;hour&apos;, [time])' />
+      </column>
+      <column datatype='integer' name='[Tweet id]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='tweet_activity_metrics_bakery_' datatype='table' name='[__tableau_internal_object_id__].[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]' role='measure' type='quantitative' />
+      <column caption='App Installs' datatype='integer' name='[app installs]' role='measure' type='quantitative' />
+      <column caption='App Opens' datatype='integer' name='[app opens]' role='measure' type='quantitative' />
+      <column caption='Detail Expands' datatype='integer' name='[detail expands]' role='measure' type='quantitative' />
+      <column caption='Dial Phone' datatype='integer' name='[dial phone]' role='measure' type='quantitative' />
+      <column caption='Email Tweet' datatype='integer' name='[email tweet]' role='measure' type='quantitative' />
+      <column caption='Engagement Rate' datatype='real' name='[engagement rate]' role='measure' type='quantitative' />
+      <column caption='Engagements' datatype='integer' name='[engagements]' role='measure' type='quantitative' />
+      <column caption='Follows' datatype='integer' name='[follows]' role='measure' type='quantitative' />
+      <column caption='Hashtag Clicks' datatype='integer' name='[hashtag clicks]' role='measure' type='quantitative' />
+      <column caption='Impressions' datatype='integer' name='[impressions]' role='measure' type='quantitative' />
+      <column caption='Likes' datatype='integer' name='[likes]' role='measure' type='quantitative' />
+      <column caption='Media Engagements' datatype='integer' name='[media engagements]' role='measure' type='quantitative' />
+      <column caption='Media Views' datatype='integer' name='[media views]' role='measure' type='quantitative' />
+      <column caption='Permalink Clicks' datatype='integer' name='[permalink clicks]' role='measure' type='quantitative' />
+      <column caption='Promoted App Installs' datatype='string' name='[promoted app installs]' role='dimension' type='nominal' />
+      <column caption='Promoted App Opens' datatype='string' name='[promoted app opens]' role='dimension' type='nominal' />
+      <column caption='Promoted Detail Expands' datatype='string' name='[promoted detail expands]' role='dimension' type='nominal' />
+      <column caption='Promoted Dial Phone' datatype='string' name='[promoted dial phone]' role='dimension' type='nominal' />
+      <column caption='Promoted Email Tweet' datatype='string' name='[promoted email tweet]' role='dimension' type='nominal' />
+      <column caption='Promoted Engagement Rate' datatype='string' name='[promoted engagement rate]' role='dimension' type='nominal' />
+      <column caption='Promoted Engagements' datatype='string' name='[promoted engagements]' role='dimension' type='nominal' />
+      <column caption='Promoted Follows' datatype='string' name='[promoted follows]' role='dimension' type='nominal' />
+      <column caption='Promoted Hashtag Clicks' datatype='string' name='[promoted hashtag clicks]' role='dimension' type='nominal' />
+      <column caption='Promoted Impressions' datatype='string' name='[promoted impressions]' role='dimension' type='nominal' />
+      <column caption='Promoted Likes' datatype='string' name='[promoted likes]' role='dimension' type='nominal' />
+      <column caption='Promoted Media Engagements' datatype='string' name='[promoted media engagements]' role='dimension' type='nominal' />
+      <column caption='Promoted Media Views' datatype='string' name='[promoted media views]' role='dimension' type='nominal' />
+      <column caption='Promoted Permalink Clicks' datatype='string' name='[promoted permalink clicks]' role='dimension' type='nominal' />
+      <column caption='Promoted Replies' datatype='string' name='[promoted replies]' role='dimension' type='nominal' />
+      <column caption='Promoted Retweets' datatype='string' name='[promoted retweets]' role='dimension' type='nominal' />
+      <column caption='Promoted Url Clicks' datatype='string' name='[promoted url clicks]' role='dimension' type='nominal' />
+      <column caption='Promoted User Profile Clicks' datatype='string' name='[promoted user profile clicks]' role='dimension' type='nominal' />
+      <column caption='Replies' datatype='integer' name='[replies]' role='measure' type='quantitative' />
+      <column caption='Retweets' datatype='integer' name='[retweets]' role='measure' type='quantitative' />
+      <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+      <column caption='Url Clicks' datatype='integer' name='[url clicks]' role='measure' type='quantitative' />
+      <column caption='User Profile Clicks' datatype='integer' name='[user profile clicks]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_422493955518947330]' derivation='None' name='[none:Calculation_422493955518947330:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_422493955518947330:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;@Reply&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Promoted Tweet&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Organic Tweet&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tweet_activity_metrics_bakery_' id='tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922'>
+            <properties context=''>
+              <relation connection='excel-direct.1vjnad102m072d1bb66o403v1vng' name='tweet_activity_metrics_bakery_' table='[tweet_activity_metrics_bakery_$]' type='table'>
+                <columns gridOrigin='A1:AN33:no:A1:AN33:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Tweet id' ordinal='0' />
+                  <column datatype='string' name='Tweet permalink' ordinal='1' />
+                  <column datatype='string' name='Tweet text' ordinal='2' />
+                  <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm Z' name='time' ordinal='3' />
+                  <column datatype='integer' name='impressions' ordinal='4' />
+                  <column datatype='integer' name='engagements' ordinal='5' />
+                  <column datatype='real' name='engagement rate' ordinal='6' />
+                  <column datatype='integer' name='retweets' ordinal='7' />
+                  <column datatype='integer' name='replies' ordinal='8' />
+                  <column datatype='integer' name='likes' ordinal='9' />
+                  <column datatype='integer' name='user profile clicks' ordinal='10' />
+                  <column datatype='integer' name='url clicks' ordinal='11' />
+                  <column datatype='integer' name='hashtag clicks' ordinal='12' />
+                  <column datatype='integer' name='detail expands' ordinal='13' />
+                  <column datatype='integer' name='permalink clicks' ordinal='14' />
+                  <column datatype='integer' name='app opens' ordinal='15' />
+                  <column datatype='integer' name='app installs' ordinal='16' />
+                  <column datatype='integer' name='follows' ordinal='17' />
+                  <column datatype='integer' name='email tweet' ordinal='18' />
+                  <column datatype='integer' name='dial phone' ordinal='19' />
+                  <column datatype='integer' name='media views' ordinal='20' />
+                  <column datatype='integer' name='media engagements' ordinal='21' />
+                  <column datatype='string' name='promoted impressions' ordinal='22' />
+                  <column datatype='string' name='promoted engagements' ordinal='23' />
+                  <column datatype='string' name='promoted engagement rate' ordinal='24' />
+                  <column datatype='string' name='promoted retweets' ordinal='25' />
+                  <column datatype='string' name='promoted replies' ordinal='26' />
+                  <column datatype='string' name='promoted likes' ordinal='27' />
+                  <column datatype='string' name='promoted user profile clicks' ordinal='28' />
+                  <column datatype='string' name='promoted url clicks' ordinal='29' />
+                  <column datatype='string' name='promoted hashtag clicks' ordinal='30' />
+                  <column datatype='string' name='promoted detail expands' ordinal='31' />
+                  <column datatype='string' name='promoted permalink clicks' ordinal='32' />
+                  <column datatype='string' name='promoted app opens' ordinal='33' />
+                  <column datatype='string' name='promoted app installs' ordinal='34' />
+                  <column datatype='string' name='promoted follows' ordinal='35' />
+                  <column datatype='string' name='promoted email tweet' ordinal='36' />
+                  <column datatype='string' name='promoted dial phone' ordinal='37' />
+                  <column datatype='string' name='promoted media views' ordinal='38' />
+                  <column datatype='string' name='promoted media engagements' ordinal='39' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Area Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tweet_activity_metrics_bakery_ (Tweet Activity Metrics - Bakery Brand)' name='federated.0jmwog417ln8141b11fx61cya4h3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jmwog417ln8141b11fx61cya4h3'>
+            <column caption='Organic Tweet?' datatype='boolean' name='[Calculation_422493955518214144]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CONTAINS([promoted impressions],&quot;-&quot;)' />
+            </column>
+            <column caption='@Reply?' datatype='boolean' name='[Calculation_422493955518652417]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STARTSWITH([Tweet text],&quot;@&quot;)' />
+            </column>
+            <column caption='Type of Tweet' datatype='string' name='[Calculation_422493955518947330]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_422493955518214144] = false THEN &quot;Promoted Tweet&quot;&#13;&#10;ELSEIF [Calculation_422493955518652417] = true THEN &quot;@Reply&quot;&#13;&#10;ELSE &quot;Organic Tweet&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Tweet text]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='tweet_activity_metrics_bakery_' datatype='integer' name='[__tableau_internal_object_id__].[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]' derivation='Count' name='[__tableau_internal_object_id__].[cum:cnt:tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922:qk]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.true...column caption='tweet_activity_metrics_bakery_' datatype='table' name='[__tableau_internal_object_id__].[tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922]' role='measure' type='quantitative' />
+            <column-instance column='[time]' derivation='Day' name='[dy:time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_422493955518947330]' derivation='None' name='[none:Calculation_422493955518947330:nk]' pivot='key' type='nominal' />
+            <column caption='Promoted Impressions' datatype='string' name='[promoted impressions]' role='dimension' type='nominal' />
+            <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Organic Tweet&quot;</bucket>
+              <bucket>&quot;@Reply&quot;</bucket>
+              <bucket>&quot;Promoted Tweet&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0jmwog417ln8141b11fx61cya4h3].[__tableau_internal_object_id__].[cum:cnt:tweet!activity!metrics!bakery!_AB82708BB903437FA8E00FF45A4F6922:qk]</rows>
+        <cols>[federated.0jmwog417ln8141b11fx61cya4h3].[dy:time:qk]</cols>
+      </table>
+      <simple-id uuid='{B41D629C-FDB1-4645-80EB-6FEA616DBDC6}' />
+    </worksheet>
+    <worksheet name='Bar Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tweet_activity_metrics_bakery_ (Tweet Activity Metrics - Bakery Brand)' name='federated.0jmwog417ln8141b11fx61cya4h3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jmwog417ln8141b11fx61cya4h3'>
+            <column caption='Organic Tweet?' datatype='boolean' name='[Calculation_422493955518214144]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CONTAINS([promoted impressions],&quot;-&quot;)' />
+            </column>
+            <column caption='@Reply?' datatype='boolean' name='[Calculation_422493955518652417]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STARTSWITH([Tweet text],&quot;@&quot;)' />
+            </column>
+            <column caption='Type of Tweet' datatype='string' name='[Calculation_422493955518947330]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_422493955518214144] = false THEN &quot;Promoted Tweet&quot;&#13;&#10;ELSEIF [Calculation_422493955518652417] = true THEN &quot;@Reply&quot;&#13;&#10;ELSE &quot;Organic Tweet&quot;&#13;&#10;END' />
+            </column>
+            <column aggregation='Sum' datatype='integer' name='[Day of Week]' role='dimension' type='ordinal' user:agg-type='Weekday' user:base-field='time' user:ui-builder='date-bin-builder'>
+              <calculation class='tableau' formula='DATEPART(&apos;weekday&apos;, [time])' />
+            </column>
+            <column datatype='string' name='[Tweet text]' role='dimension' type='nominal' />
+            <column caption='Likes' datatype='integer' name='[likes]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_422493955518947330]' derivation='None' name='[none:Calculation_422493955518947330:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Day of Week]' derivation='None' name='[none:Day of Week:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[time]' derivation='None' name='[none:time:qk]' pivot='key' type='quantitative' />
+            <column caption='Promoted Impressions' datatype='string' name='[promoted impressions]' role='dimension' type='nominal' />
+            <column-instance column='[likes]' derivation='Sum' name='[sum:likes:qk]' pivot='key' type='quantitative' />
+            <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_422493955518947330:nk]' />
+              <groupfilter function='member' level='[none:Calculation_422493955518947330:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0jmwog417ln8141b11fx61cya4h3].[none:time:qk]' included-values='in-range'>
+            <min>#2015-12-01 10:15:00#</min>
+            <max>#2015-12-31 23:45:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.0jmwog417ln8141b11fx61cya4h3].[none:time:qk]</column>
+            <column>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <reference-line axis-column='[federated.0jmwog417ln8141b11fx61cya4h3].[sum:likes:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.0jmwog417ln8141b11fx61cya4h3].[sum:likes:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jmwog417ln8141b11fx61cya4h3].[sum:likes:qk]</rows>
+        <cols>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Day of Week:ok]</cols>
+      </table>
+      <simple-id uuid='{D82BF365-940D-4316-B29E-5700344D15B9}' />
+    </worksheet>
+    <worksheet name='Box Plot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tweet_activity_metrics_bakery_ (Tweet Activity Metrics - Bakery Brand)' name='federated.0jmwog417ln8141b11fx61cya4h3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jmwog417ln8141b11fx61cya4h3'>
+            <column aggregation='Sum' datatype='integer' name='[Day of Week]' role='dimension' type='ordinal' user:agg-type='Weekday' user:base-field='time' user:ui-builder='date-bin-builder'>
+              <calculation class='tableau' formula='DATEPART(&apos;weekday&apos;, [time])' />
+            </column>
+            <column-instance column='[time]' derivation='Hour' name='[hr:time:ok]' pivot='key' type='ordinal' />
+            <column caption='Likes' datatype='integer' name='[likes]' role='measure' type='quantitative' />
+            <column-instance column='[Day of Week]' derivation='None' name='[none:Day of Week:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[likes]' derivation='Sum' name='[sum:likes:qk]' pivot='key' type='quantitative' />
+            <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Day of Week:ok]'>
+            <groupfilter from='1' function='range' level='[none:Day of Week:ok]' to='7' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Day of Week:ok]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0jmwog417ln8141b11fx61cya4h3].[hr:time:ok]' value='112' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0jmwog417ln8141b11fx61cya4h3].[hr:time:ok]' value='ih a' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.0jmwog417ln8141b11fx61cya4h3].[sum:likes:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0jmwog417ln8141b11fx61cya4h3].[sum:likes:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jmwog417ln8141b11fx61cya4h3].[sum:likes:qk]</rows>
+        <cols>[federated.0jmwog417ln8141b11fx61cya4h3].[hr:time:ok]</cols>
+      </table>
+      <simple-id uuid='{338E71B5-1438-49CB-A291-2C568FC13F60}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Bar Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jmwog417ln8141b11fx61cya4h3].[none:time:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]</field>
+            <field>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Day of Week:ok]</field>
+            <field>[federated.0jmwog417ln8141b11fx61cya4h3].[none:time:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{02860D70-D5EA-47EE-9142-AFC618977CEE}' />
+    </window>
+    <window class='worksheet' name='Area Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Calculation_422493955518947330:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1DC5AC58-2C1C-4E27-AA8E-E61713540516}' />
+    </window>
+    <window class='worksheet' name='Box Plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='103'>
+            <card param='[federated.0jmwog417ln8141b11fx61cya4h3].[none:Day of Week:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jmwog417ln8141b11fx61cya4h3].[none:Day of Week:qk]</field>
+            <field>[federated.0jmwog417ln8141b11fx61cya4h3].[yr:time:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2B56B16B-4F86-4358-B758-65FC9E58E4C6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='288' name='Area Chart' width='288'>
+      iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dWXBc150e8K9XLAQaO0AQJEFwFTeRkkhKlGSbslSyLFuWbMeyx544tsdJ
+      1aSmJilXHlKVqlSq8pDK5CGumsSOZ8bLlF22JM/Y8mihKIqrRFLcSexbY9/Rje5Go/d7zslD
+      g6BASsJtoG/3xcX3q9KD1ALuIdD98Sz/c45NKaVARJQH9nw3gIjWLgYQEeVNzgJISgmO9ojo
+      o0wfQMlkEvF43IAWEVG+cQhGRHlj+gBSSkFKme9mEJEBTB9AUkoIIfLdDCIygDPfDViKw+GA
+      zWbLdzOIyACm7wERkXWZPoA4B0RkXQwgIsob0weQ3W6Hw+HIdzOIyACmDyAAnIQmsijTBxCH
+      YETWZfoAYh0QkXWxDoiI8sb0PSAisi7TBxDngIisiwFERHlj+gBiHRCRdZk+gADWARFZlekD
+      iEMwIusyfQCxDojIulgHRER5Y/oeEBFZl+kDiHNARNbFACKivDF9ALEOiMi6TB9AAOuAiKzK
+      9AHEIRiRdZk+gFgHRGRdWQmg+FwIba2tGBiZgFISA72d6B8exzKugr+Pw+GAy+Va+TciItPJ
+      Tg/I4cTO3XsQmujHaF8nEkV1SAXGMRNNZuXbE5E1ZaUSurCoAO03b8Afc6AQMax/pBxSFmFm
+      LomKIufCPI4QIuMJ5WQyCSkl7HbTjxaJKENZCaBYNIFdBx6Gs+0W7E4npiZmYQslUNHkXggO
+      pRTsdnvGQSKlhKZpcLvd2WgqEZlIVroVqdgcOtra4PDUYesD+2CfHYWttAaVxSsPDdYBEVmX
+      TalsTBUvTdO0ZfWA7gzBCgsLDWoZEeWL6SdWWAdEZF2mDyDWARFZF88DIqK8MX0PiIisy/QB
+      xDkgIutiABFR3pg+gFgHRGRdpg8ggOcBEVmV6QOIQzAi6zJ9ALEOiMi6WAdERHlj+h4QEVmX
+      6QOIc0BE1sUAIqK8MX0AsQ6IyLpMH0AA64CIrMr0AcQhGJF1mT6AWAdEZF2sAyKivDF9D4iI
+      rMv0AcQ5ICLrYgARUd6YPoBYB0RkXRkH0EhrO4Iitz0STkITWVPGARSbDSOVm7sMAXAIRmRl
+      ph+CsQ6IyLp01QG1XDqFttE5HHn0UazfvQsFjtzlFuuAiKxL393wSqHz5gX87Oe/Rv3W3fjc
+      F17Eo/uaMnoQ74Ynonvp6gFdO3ccvTMK//m//y/UlNlw9lwHgMwCaLk4B0RkXboCKBmJYP+j
+      z6Cu0gMA+PznjxjaqI9iABFZl64AWldWgp//+G+w94HtOHj0aTyyZ4vBzbqLdUBE1qUrgHYf
+      +gxeTDhQXlWL6roqo9t0H05CE1mTrhnh0//0G/ilwmBHO8580GJ0mxbhEIzIunQF0OZtTWi7
+      egVnL13H9p2b73s9EvLh9u3baG7rgpAJXL14Gc2tHUhmoWKadUBE1qVrGX5seBCVdRugEnMY
+      9cewfcuGRa8nEnG43QXoaL6G9bWV6Jy24+CODSgqKgCUglIKQgjY7faMh1OpVApSShQUFGT2
+      JyMi09M1B2RPzeEX//B30KQNX/vWn9/3eoHbhfbb12H31KOsqgqbNB86m6+jce8hlBc5IKWE
+      lBJKqYwD6M7XshdEZD1LBJDCubf/gM5hH4KTo0gWVGFswo+N1Z5F/9dAZwsK65qwscqDufAM
+      ij0VWOefgJAKDocDDodj2YWId4LL5XJl+mcjIpPTNQSLhqZx+uwHSElg14FHsWfr4iHY7MwU
+      xqZmALsL27ZuwcTIAFwlVairLsed/s5yAygej0PTNJSUlGT0dURkfroC6E9//7fwO2uxod4G
+      UbIPX3pyT8YPWslWDCEEioqKMn4mEZmbrjRoemAH9uxrQvPNbricuS8KZB0QkTXp6gElY2F8
+      eOlD2NZV47FDB+Baxm745faAEokEhBAoLi7O+JlEZG660uDkq/+IuaI6JEZv4s3zrUa3aRGu
+      gBFZ15KrYDcvnkX/pA+QbShNheApz0m7FvA8ICLrWrIOaNvuB7Fh291J57kpP8JCojSHh5IR
+      kTUtEUA2eCqq8NGqn1nvAOJKodTQZt3FvWBE1mX6bgwDiMi6MrgbXkFoErVbt8Cd4UrWSvA8
+      ICLr0hVAp177BVTNJpx8+10c++oP8MX1dUa3axFOQhNZk66ujMNux7snz+LYsccRnosZ3aZF
+      OAQjsi5dPaDajZvx5488h6rkCEa0GqPbtAjrgIisS1cPaLC7C/7QHCZGBzEwPGl0mxZxOBzc
+      CU9kUfq2YkRDeOf4O9Dc5XjuC8+g2J35pDDvBSOiey1ZCX3+3VMoLrVjzBeEDUG0dg/hSIaX
+      Eq4E54CIrEtXD+jiW79H2cFnsLehYtkP4mZUIrqX6e8FYw+IyLp09YB6mm+jevsuOKJ+jIcd
+      2NW0PuMHcQ6IiO61ZA9ouOs2/u4nP0XjkaOwBUex4aEvLSuAiIjutWQPKB6dw6Uz59Dw4EGU
+      FxagsqoKTnvmlcmcAyKiey3ZAyosLkFthQOv/vpX2FJTi5Ltj+GrT+3PRdsAcA6IyMp0dUdG
+      +gex78hhRIJBaJpmdJsW4WZUIuvSNQmtJaO4cP48ko5SfObJx1DoYiEiEa2crjS4eupN3Oga
+      xFBfJ9p6ho1u0yIcghFZl76rmZVC0+4H0VRVjLra5RcjLgcDiMi6dPWAJscnEY9FEA6HkUjm
+      fg7I6czg3DQiWjV0fbIrqj3oHhiErCiCp7YRQJXBzSKitUDfbvh4DPFkCgAQD4VR2rABRRnW
+      ArEOiIjupSsN3IVF8Hg88Hg8CA2PYC6HczKcAyKyLtPfisE6ICLr0nkiYhuGJ/yQUsFTW43C
+      HB8Sz0PpiaxJ1yR0eWUlLnxwGq90ebFp5wF8sX4jsK7A6LYB4BCMyMp09YBG+7rROzSBbfse
+      xuE9NXjl9yeMbtcCBhCRdelaBWu9cgWbDjwEV3wGYwGgaVP1onkZoSXQ7/XCua4SjQ11GO7v
+      gSosx+b6WtwZPXErBhHdS9d5QP/4i18sOg9o+5bFFxNGZmexvnE7BjpuYjg+g0hBHezTAwiU
+      V6CymDdaENHHWzKAajZtw/MvvLDoPKB7eSprMD7Yg5i9FO5ADBsOVUJiCjPhBMoLHQvDKCFE
+      xhPKyWQSQoiMe05EZH5L3opx5YMP4akuxpm33wQAPPTEs/fdijE91AO/VoTDB3bAP9AO3/Qc
+      bOEkyja7F4JDKbWsIdid+R+3253R1xGR+emaA2q/fgEBsQ4PHdiL4oL7h1TjQ15MBSKwOd14
+      YNd2DPZ0AgVl2N60KStzQEIIFBUVZfR1RGR+urdidLbexLvvvIM9x17G80/uy/hBnIQmonvp
+      qgPqab6My81e7Dp8DI89uNXoNi3CZXgi61qiO6Jw++o1CIcL64qLEPZPYHjCn5uW3WkBA4jI
+      spYYgimEAiFIqQFOFyBSsDmLUe7JfGc6h2BEdK8l0sAGp0Phdz/5KdpHxtF5/QzeOHMrNy0j
+      Istbcg4o5BtHIBZFT2srKopL8KWnH85FuxZwCEZkXbpWwW6cPY7KB4+hONiNntlSPHEw84no
+      5Q7B4vE4NE1DSUlJxs8kInPTtQoWmBzFwK0WeIJtCFc8YnSbFuF5QETWpasHJFJxvH/mFFLu
+      Cnzm8SModGd+SDwnoYnoXrqS5PrpN/D2yZsoKhaIO8vwwpN7jW7XAs4BEVmXrgCaGpvGsWc+
+      h3jMj1AgbHSbFmEAEVmXvq0YsTkkpQ3tzbfRtHMvKio9cGa4q51DMCK6l75bMYpKULJuHY4c
+      fRzBrk4EBHskRLRypj9kh0MwIuvSNQekpMSdczVchYVw5PCWCgYQkXXp6gG987vfYjyWxHT/
+      TdyeEah05K7jxDogIutasgfUe+si/uXdk7gyMo51Dge+/PJ3c9GuRXgvGJE16VoF840O4NL1
+      22ho2IiqTdvRWFuW8YN4NzwR3aFEEmL0hr4h2OWTb8NdXYWxnm6cv9BqdNsW4RwQkXUoJaGN
+      XEPiwt8i1fGmvknoXQf24rUT5zDri+Cbf/l5o9u4iN1uh9OZ+dYPIjIPJQVUcAipruOQs2OA
+      zQ6b3aEvgDbu2I+93knUP9WIsuLcXMlMRKuXUgpIzEEGByCmuyCDQ1DRGdjsDtjsdxeVdAXQ
+      ydd+i9IHD2Oqtw9dYyls/eqThjX8XhyCEa0OSknIwADkdDfkjBdqbhpKaunejs22KHju0BVA
+      +w8/hFfeOoXZQAx/9pfPZL3hn4YBRGROSmpQET+krxvC3ws50w9IDTbH3au7Pi50PkpXACU0
+      G3bvP4QHDzyIxobqlbU6Q6wDIjIPFQ9B+Hoh/b2QoWGoWACwOdI9HJsNcGR2FbvOe8Gi6Lh1
+      Ga/805/w2Je+hxefOphxw7kZlWh1UUoBMgUZGISc7kqHTsQ3vyvClpX6PF09oA/f/QPeax7D
+      C9/6Czy4Z+eKH5oJDsGIckcJDSo8BuH3Qvq9UKERKJGCzZGOiqWGVJnSFUAHHn8acdsFnPjj
+      bxGMfxvPP7k/q434NAwgImOpWDC9UjXjhQwMQiXn5ieO06OVO+FjBF1DsM4bl6F51mNbQw2U
+      zYniQnfGD+IQjCj/lFJAKgoZGISY7oQKDKSHVfb5Hk6Otz0tGW2R2QBOv/UuDnztG7j1wVvo
+      jTbgX7/4eC7aRkRZoEQKMjQM6e+D9PdChcehhHZ3WJXhxHE28V4wIotRSkHFApCTrekJ5MAA
+      lJZYqMcBjB1WZULXECwbeC8YkTHSVcez6WGVryddBBj1A44C058ksUQMKrz6i1/B5S7A0a99
+      HfV52IbBOiCi+yktka469vfNVx1PQSkB2525HOfqmDNdsh+2e/dG/OT//QYto6ModTnw6FNf
+      wRMPbc9F2xaYPcWJjKSUApSEivggpzshZvqgAoOLtjnAZoPNZo5hVSZ0DcHGva04fu4yHO4S
+      vPDSS6gsub8nlIhFYXcXweVQ8E1NQ8CO6upqOOzp8OB5QET6KSWhogHIQB+krxcyOAgVCwEO
+      l6X+QtYVmVfPnsHBZ76FkqnrOH7mJr7zwmOLXo/O+tHWfBPr934WG4tn0dk3jR1b67LSQE5C
+      01qhUnHIQH+64tjfBxn1AUotFP/ZnJmXv5idrgB68MjD+O0rv4ZDxPGl7/y7+14v9lRhR9Mm
+      hAEkY0nY7EmMjk+goqoKNqkWQkQIkXF6SymhlEIymczo64hWAyU0YKoVcvQ6ZGgEgAJs94wS
+      hMhL23JB9yqYkhLKZoP9EwIkONqFcHETNngcsNvtmO5rQ6x8Kxqr0kMnFiIS3aWUgvT3QOs8
+      DhmZzvoWh9VCVw9ouLcXVVuaYI8FMD1nw6b6ykWvz85MondoEklnEoWN1Rgbn4Imbdi/ZeWh
+      wSEYWYlSKn0yYO97kDP99x3QtdYs2QOaGOjC//3fP8H2zx6DzTeAwi2fxctfeCTjB7EOiNYy
+      pRRU1A+t+x2Iyfa8Vh+byZI9oJLyKjzy6BHUbduG8n370LS1KRftWsA6IFrtVCwIre8cxNhN
+      KCUZPh+hI4CqUeqM48IHF1FR5EJUuPDIni05aNpdVlp2pLVDaUloA+chBi5ASXH30C5aoGsO
+      qLDAhZ37D2L3Bg8qa3J7IiLngGi1UVoCYvQ6tP73oZJzsH1kDxYtpiuANu89hPjgOIaGgrAX
+      lqGqPHfzMQwgWi2UUpCTrUh1n4CKh+aDJ3fXmK9GugIo6J9Eb28vorNBuCo2Y9umWqPbtYD3
+      gpHZKSUhfb3QvKchQyPplS0Gjy666oCkFJBSYbj1HK5NluMbOVwFYx0QmZVSCio8gVTX25Az
+      fQsbQUk/XT+xjusXcOl2N5RU+MxzLxndpkU4BCMzklE/tN7TEBMtAMDwWSZdP7VyTzGCsxHY
+      lQZ7jg8yYgCRmahkBFrPSWgj1zi5nAW60uTa+xfwhW99D6VT1/D+9U7sbDhqdLsWsA6IzECl
+      YhBDl6ANXoLS4mu6ejmbdM0BhaYG8NvX3oB0FuMb3/42aj1FGT+Ic0C0GikpIEauQet9Lx08
+      nFzOqiUDaLj9KmYKNuHAtvWY7GvGULwch/dszvhBPA+IVhMlBeRUO7TeU/ObRTnHY4Qlf6rj
+      /T0I1lcBACKhSXSPRJcVQMvFOSDKNTHTB63zLcjw5PxmUYaPUZbsASUiM/jVP/wKEQFIexG+
+      /8MfoOpjTkRcCodgZGbpJfXx9MrWdMfCfedkLNPfisEAIqPJaABa13GIqfb0HA+DJ2eWvBXj
+      /IlTcLodeODok6gszP0uXg7ByCgqFYPmPQsxciW9WZQrWzm35OA2Hh7CK388g8Yr1/JyKwYD
+      iLJNKQkxdhta+58AJedvlGCvJx90DcG8zTfQPT6BgnXVePLoIbgdmS9FrmQIJoRAUVHmS/9E
+      H7VwGmHPSchAPyeXTUBXGvS3X4fybIQz2I03z7YY3ab78G8nWgmlFOTsOJLXfonElb+HDA4x
+      fExC12+hsqYKlzrbUBiZwLYnHje6TYtwCEYroWIBaH3noY1cXfPnL5uRriGYUhKTY6MQjkJs
+      qKteVo+EZ0JTLqlkBFrfWYiRq1BSshdtUrr7oVW16+d7IwoOR+5+mTwPiDKhtCTEyFVofWeg
+      tAQ3jJqcrk/2hTdfwbXRCMoLXXjw0afw8O5Go9tFlBElNYjRG9D6zkLFw7DZeRrhaqArgApc
+      TmzYshNNVcWorfQY3aZFOAdEnyZ9wV8vtO4TkOGJ+XkeBs9qoSuAxkbG4Whcb3RbPhYDiD6O
+      UgoqMIBU9wnI0DBsdicnmFchXQFUVVOOC+0diFQUwVlah411FUa3awHPA6J7ycg0tJ6TEJPt
+      gM3OJfVVTNcqWDQcQjgaBwCsKy1DSXHm+7K4F4xWQikFxENI9Z6CHL8NBdaHWYG+u+G9Hbje
+      3ofJgQ5seeJlfPVz+41u1wIOwUilotAGL0H0nVsIHkaPNegKoNLyKjQ2CqxDGOHZiNFtWoQB
+      tHYpkYIYvJA+BjUVTS+p57tRlFVLBpBIJaDBjiKXHcnCBrz07KFctGsB64DWHiUF5GQbUt3v
+      QCXCvODPwpb8rd4+/To6fAqXz51EMjyK05e7ctEuWoOUkhCT7Uh++FMkm18DkhEGj8Ut2bVw
+      FRTAe+scAu7N+OKBTbgwMpeLdi3gEGxtkHOTSHW8CTnTn+7xcEl9TVhyFUxJDZ0dHdi8fTci
+      0yNwVdSjYl3ujmTlXjBrk+FJaL2n0qcRMnTWnFVxJCvPA7IelZyD5j0DbfhqemKZS+prkq7Z
+      3ZaL7+LMTS+QjEKDE09/5WUc2Fa/8LpSCkHfJArKalHssmF0qA+qoAwNddVZeV+x3sM6VCoK
+      beACxNCHUCLF3+0ap6s74m3rxNNf/w5eevoR1G9pwtt/PLHo9Vg4gOGBHvgjGkJjPQgqD8Lj
+      AwjGUytuIOeArEFJDdrwFSTe/zG0/vOA1Bg+pK8H9Jnnn8NvfvdzSNjw3PPPoqIqvuj1Yk8l
+      Nm+oRRjA1HgYDY/sgHL4EJhNwOO2QwgBOX8mS6ZvumQyCU3TuBS/SikpICdaoAY/gIr6gIVV
+      LZHXdpE56PpUK2XH1u07YLMBdncFnvts/Sf+vxWVBQj4Y7DNpVC6yQWHwwGHw7HsOSAAcLlc
+      cLvdGX8d5Y9SEjIwCK3zLSA8AbvNDjhzf6sKmZuuALr07nGUHXoOWyuLUFpeft/rszOT6B8P
+      Qdi7sWffDvi6u4BCDxqXsVpGq5tSCio0Aq33PQi/l8eg0qfStQp28a3f4GTLNNZXFOOhJ57F
+      kX1NGT+Id8Nbn4qFkOo+DjHRygv+SJclLyYc8PZj095H8XTZJACgjgeS0UcopYDELLT+8+kl
+      dZuNPR7SbckhmA1AQWERSkrWQSnA7crtm4vnAZmXEkmIgQvQ+s/x4HdaliUCyIbGbVtx6rWf
+      4+ZUChVFLhwsqEB9zf3zQEbiG9tclNAgRq9B6z//kc2i/B1R5nRNQhcWuLBz/0Hs3uBBZU21
+      0W1ahEMw81BKQk51INX5NlQ8lJ5g5mZRWgFdAbR57yHEB8cxNBSEvbAMVeW525fFAMo/pRTk
+      TB+03lPzt4pyZYuyQ1cABSeH0dLhRZHLgdK6rdi2yehm3cXzgPJHKQUVmUaq/U+QgcH585cZ
+      PJQ9uj7ZvrFxHHvxW9hX71lWISGtPjLig9Z/HmLsJo/HIMPouxWjoQEfvPl7XHM5cPDoMzi0
+      d4vBzbqLQ7DcUloCWvc7EKM3oJTiHA8ZSlcArSurQv36OUghUFSY23J6BlBuqFRs/krjcwu7
+      1LmyRUbTFUD1m7ehpLoBw20X4R0JYO+2BqPbtYB1QMZSSkIMX0kHTyI8v7LF4KHc0BVA3vYb
+      uHirG9HZGRx4ap/RbboPPxDZp6SE9HWlV7YWrjRm0FNuLRlAUqTgLqnBV18+hHWIoHc8mot2
+      LeAQLLvSS+r90HpOQIZGeKUx5dWSAdR+4Tg+GExi/NVXUFZWg29+7we5aNcCBlD2yPAkNO8p
+      iKkOADZeaUx5t+Q70DfhQ0nZJqjZWex59suA0HLRrgWsA1oZpRRUPJi+S32iBYCNK1tkGkse
+      xxGYGoV3aHzh3+s3b0NDbUXGD+Ld8LmnkhFogxchBi9CScG5NDId09+KwfOAMqeEBjHwPrTB
+      i1BanD0eMi3Tj204B6SfkhrkRAtSPe9BxWdhs/NKYzI30wcQ64CWlt6l3gmt5yRkZHp+SZ3B
+      Q+Zn+gACWAf0SZRSULNjSHUdhwwMcLMorTqmDyAOwT6eDE9A634XwtfFWh5atRhAq4xKhKF5
+      z0KMXktvFmUtD61ipn/3sg4oTaVi0PrOpa80Vsu75JHIbPjJNjklUhCj16F5z0Clojx/mSzF
+      9AG0VodgSimI0RvQ+s6kz1+2cUmdrIcBZDJKSciZAWjdxyFnx9ITzAwesijTB9BaqgOSgUGk
+      ek5CBgbTRYScYCaLWxXvcCvPeSilgHgQqe6TEJPzm0VZREhrhOkDyMpDMBULQOs7B230Oud4
+      aE1iAOXB3SuN34eSKQYPrVmmDyAr1QEpkUyfv9x/HioVn6/lYfjQ2mWNT7bJLVxp3H0CKjrD
+      g9+J5pk+gFbzEEwpBenvTe9SD4/zgj+iexgQQAqhQBASNnjKyuCwr+xv+tUYQEopqLnJ9C51
+      XzdsDjeHWkQfI+sBpJJ+3GobxtYtdSgt8wBYWQCttjogOTcFzXsGYrItPcfjcOe7SUSmlfUA
+      SkYSsDsVfDMBrK+vhxACQghIubwNlHfOhDZ7CKlUFGrgPMTQZYDzO0S6ZP1M6DtBM93fhljZ
+      VjRWpc9ytuqZ0CoZhTZ0KX3w+/yVxkSkT9Z7QNGQD96hcaQEsH/zym+yMOsckFISYuQ6tN6T
+      UKkYd6kTLYPpb8Uw27U8SmqQk+3QvKchIz6uahGtgOmX4c1CKQUVHEKq4430kjqPQSVaMdMH
+      kBmGYHJ2HFrvexC+bvBKY6LsMf0nKV8BlN6lHkKq+wTERDPP5SEygOkDKB91QCoRhjZwAWL4
+      cvpKY/Z4iAyxKj5ZuVxdUqkYEpd/lr5ZlAe/ExnK9GOKXA/BtJ6T82cwM3iIjMYA+gg5OwZt
+      5CrneohyxPSftFydB6SkhlTb61jp3jUi0s/0AZQrYuRa+hYKDr2IckIpZf5J6FwMwVQiDK37
+      BAsLiXJEaCn0hNwMIKUUUh1vAsp8+82IrEQpBSEEhiKFuKXtxUzBFvMHkNF1QNLXkz67Zw31
+      fpRSSCbikDIn2wCJAACBpBPXxT5MubdCFaQ/b6YPIMC4OiClJZDqfAtYI6teSikkkkl0hMvQ
+      5nwCms0cG3xpbRB2F9Q9C0qmDyAjh2Ba/zmoqN/yvR+lFJIpDb2RMrSow5grrMt3k4gArOEA
+      khEftP4PLB8+UmjoD9lxE4cQdG1YM709Wh1MH0BG1AEpKedrfqxLCIGxiAO3Ursx6d7O4CFT
+      Mn0AGUFM3IYMDFiy96OkhG8uhevJXRh174QqcOW7SUSfyPQBlO0hmEpFoXUdt1z4KKUQiqZw
+      O96IfuduaIVF+W4S0ZLWVAAppaB1v7twLbIVKKUQjSdxO7Ie3a6D0ArMeXg/0ccxfQBlsw5I
+      BYegjV5fcrOpL5xESKyOHkRIlaADuxErrMp3U4gyZvoAArJTB6RECqmON6Bns2lPagPa3I+u
+      +JlE9OlMvzSSjSGYUgpi+DJkeMIyQy8iK1gTAYTELLSe9yw38Uy02pk+gFZaB6SUQqr9DShu
+      NiUyHdMH0ErJqQ6I6U4OvYhMRCkFbW7O/JPQKxmCKS2OVNfbHHoRmYiWSKJ2ZhyHVdDaAaT1
+      noaKhWDL8DpoIso+LZFEVXASh7QZ1LnT/830AbSSOiBt6NKywqd21odUomtZzySij1elkmh0
+      C9jdd6dDTB9AwArqgKQAHJkH0EZ7EvXu+PKeSUSfYvFnOftjEyXh7WqHd2AUKgsH7pnhbngi
+      MkbWA2hmsBPC0wAVnoI/mlzx92MAEVlX1gPI74uhbr0HVeWFCM2tPIBydS8YEeVe1gOopq4E
+      E2NB+IJxVJS6s/3tichCsh5A5Rt3oCA2CWd5PSqKVh5AHIIRWVf2xzY2O7Zsf+ATX1YZzkzf
+      CaBMvw4AUOABHJn/EW3FKdgEz9UhMppNLeuTrd+d8LjzT6ZL6lJKSClzOg8khDD0LrKPI6WE
+      PYcFk7l+Xj6eeafnnKtn3nmP5/LPuNrfq4Z/qlfaUCklhBA5DaBcBx6Q+zdSPt64+fgzAsjZ
+      M/lezdyq2KPAjaS0WvC9mhnDh2BERJ9kVfSAiMiaTB1AUkugo7UFfcMTWdnWoeOJGOnvRXNz
+      C0KRRC4eCABQUkNbSwu0HFUbJCIhtLS0YNwXzMnztGQUHW2t6PYO5eD3qBCYHsPg2BQAwD8x
+      gtvNrYgkNMOeFw5Mwzs4mn7e5ChampsN/dmKVBxtHV2QMv3D1BKzaOnwGvY8AEjE5tDZ1Qul
+      0p/LzvZWeIfGVvx9TR1AQ90dqGjcgfDEMBLIQQIpgZKKOuzd2YDu7kHjnzdvtNIg5mQAAARc
+      SURBVL8Hk9NBaDkaDHd09eKBPXtRU16Sk+eN9PegcuN2OKKT8MeEwU8TSCYkAsEgAAXv0Bj2
+      7NyMzo5ug54nEUsozIZmAACOgmLs3bcHQ309Bj0PiEQiiEQjkPNp3tnRi/BswLDnpZ8ZQzQS
+      hgLQ19WFui070LihdsXf19QBFIoKVJYWoqLQjtlcdEhsLrhtCVy+3oVdDzTl4IGAFp+FP+5E
+      bXmurgHSMOObQkdrM67ebs9FrKOquhqdzTcwHEiirNDot5wTdetrYLfZACThsBfCVeiBFFGD
+      nudA7fpaOOzpyeeS4kLcuHIFm5p2GvQ8wFNehZLiAgBAYGIAxdWbUWA3dvK7sroGhe70atu0
+      349hbzcuXrqC5Ap77aYOoGqPG5P+OfhiAuUFOXigTOJWay+OHH0MnqLcXGkcDgWhJaMYGBzC
+      xPRMDp7oRFl5BXbu3gO7yEm/EmMjY9hz4BFsqS7EZCiXx5y4IUQM8TkfnAVlOXnirZs3sfuh
+      I9hQk5vnzc7FEPaPYXBoEIG53PxsqyrKsKFxOyqK7EitsENr6lUwJTX09/aisKIO9dUVMHyF
+      U8TR3NIJ2O2oqd+E+poKgx94V8Dvg6eyGo4crOKm4hH0eAdQv3krKkqN73mJVAJerxeudRVo
+      3FgPQ/+y1uJo7ehGShOo27gFHpeGwfEAduzYDrfTgL9vRQpd3d2IxpOoqmtAcnYS0aTCurJq
+      bGvckP3nAZgeH8LIhB8udxF27X4ALruC3zeDqmqjLqdUGOnvxXRwDgUlFXhgawP6entQXFmP
+      +poKHTftfTJTBxARWZuph2BEZG0MICLKGwYQEeUNA4iI8oYBRES6KSnh9/mg3XNIoJaMIxrL
+      /AhmHrZMtAbdOPNH/OFcG8rKKvGDf/tDVJXoO7104NZZ/PpkJ/7qr3+I5lP/jDfeu4yy9Q34
+      Vy+9AOUqw95t9Rm1gwFEtAZFZmfw9b/4EWqC1/DW6cvY4hrH2UvNOPr8N9HffBn/5ttfxqtv
+      3cB3v/k8Tv/x1zjf3Id9R5/F+MXX4Y/WQZMKx778Zxgbm8UXvvsDxLyX0Txjw4V/+SVmYwnM
+      ymIkZkP49z/6D/jnX/4Ms6IIf/2j/4jK4sUFvhyCEa1hZRWVSCZicBaV43OfPQyvdxhNlS68
+      /vo72H34MQBA+2gA/+2//hdMdt3Ak08cwze+/33Urlu8NUGKFJKaBodnPf7TX/0QjQ88hK88
+      vh/dLVeQLG3EnoZiDE6G73s+A4hojXr1l/8HP/7l6/j8k4dx/fJFtHZ0Qyjg6Gcfx+mrXjzc
+      VAkA2Fzuwv/4n3+DkoZdGVc9V2zcAeHvx2gwibLi+4d5rIQmWoOE0JBKaXA4XXA6HZBaClKl
+      T3S89cHb6Ap58J0XjwFITzwnUym43G5ACiibY2HzraZpcDgcUEpCKRuUknA67NCEgs2mYLM5
+      IKUGIRTcbtd9J0YygIjoIxRGBgdRs2ETClzGn6XNACKivPn/mph3yJ2r8JsAAAAASUVORK5C
+      YII=
+    </thumbnail>
+    <thumbnail height='288' name='Bar Chart' width='288'>
+      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
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='288' name='Box Plot' width='288'>
+      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
+      ENbKtC//H55Q1fIReodOAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
